@@ -10,36 +10,31 @@ $serviceCards = [
         'logo'  => 'logo_fox.png',
         'alt'   => 'Fox Transportes',
         'title' => 'Transporte de Carga',
-        'desc'  => 'Un servicio seguro y eficiente para llevar tus productos donde deben llegar, con tecnología y logística de primera en todo el territorio nacional.',
-        'btn'   => 'Cotiza tus soluciones ahora',
+        'desc'  => 'Un servicio seguro y eficiente para llevar tus productos donde deben llegar, con tecnología y logística de primera.',
     ],
     [
         'logo'  => 'logo_icamar.png',
         'alt'   => 'ICAMAR',
-        'title' => 'Repuestos Originales',
-        'desc'  => 'Importación y comercialización de repuestos originales de alta calidad para maquinarias y vehículos, garantizando rendimiento, durabilidad y soporte técnico especializado.',
-        'btn'   => 'Ver repuestos',
+        'title' => 'Comercialización de Motocicletas',
+        'desc'  => 'Venta y ensamblaje de motos, mototaxis y movilidad ligera de marcas confiables, con atención personalizada y respaldo.',
     ],
     [
         'logo'  => 'logo_zoe.png',
         'alt'   => 'ZOE Costa',
-        'title' => 'Comercialización y Retail',
-        'desc'  => 'Distribución estratégica y comercialización de bienes de consumo masivo y servicios especializados en el sector Costa Norte del país.',
-        'btn'   => 'Contactar Asesor',
+        'title' => 'Construcción y Estructuras Metálicas',
+        'desc'  => 'Proyectos estructurales ejecutados con precisión, calidad técnica y visión de largo plazo.',
     ],
     [
         'logo'  => 'logo_chas.png',
-        'alt'   => 'CHAS',
+        'alt'   => 'Agencia de Marketing Digital',
         'title' => 'Servicios Digitales e Innovación',
-        'desc'  => 'Soluciones digitales a medida, desarrollo de software, marketing estratégico e inteligencia de negocios para modernizar tu marca.',
-        'btn'   => 'Iniciar Proyecto',
+        'desc'  => 'Estrategias creativas con resultados medibles para que tu marca no solo exista, sino que domine su mercado.',
     ],
     [
         'logo'  => 'logo_asiuselva.png',
         'alt'   => 'ASIU SELVA',
         'title' => 'Ensamblaje y Venta de Motos',
         'desc'  => 'Presencia estratégica en Tarapoto, Iquitos y Pucallpa ofreciendo vehículos menores ideales para el transporte, logística interna y trabajo de la región oriente.',
-        'btn'   => 'Ver Modelos',
     ],
 ];
 ?>
@@ -88,7 +83,6 @@ $serviceCards = [
                             <h3 class="service-title-back"><?= esc($card['title']) ?></h3>
                             <p class="service-desc-back"><?= esc($card['desc']) ?></p>
                         </div>
-                        <a href="<?= site_url('contacto') ?>" class="service-btn-back"><?= esc($card['btn']) ?></a>
                     </div>
                 </div>
             </div>

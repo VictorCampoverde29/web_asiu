@@ -35,7 +35,7 @@ $historiaSlides = [
 $mvCards = [
     [
         'label' => 'Misión',
-        'text'  => 'Desarrollar negocios sólidos, innovadores y eficientes que brinden soluciones reales al mercado, garantizando calidad operativa y generando un impacto positivo en la región.',
+        'text'  => 'Ofrecer productos y servicios de alta calidad que impulsen el desarrollo de nuestros clientes, contribuyendo al crecimiento económico de nuestra región y del país.',
     ],
     [
         'label' => 'Visión',
@@ -45,11 +45,11 @@ $mvCards = [
 
 $hexValues = [
     ['icon' => 'fas fa-handshake', 'text' => 'Compromiso<br>con la<br>excelencia', 'tooltip' => 'Buscamos hacer las cosas bien desde el inicio. Nos enfocamos en la calidad operativa, el cumplimiento de objetivos y la mejora constante en cada una de nuestras unidades de negocio.'],
-    ['icon' => 'far fa-lightbulb', 'text' => 'Innovación<br>estratégica', 'tooltip' => 'Fomentamos la creatividad y la implementación de nuevas tecnologías para optimizar nuestros procesos y servicios.'],
-    ['icon' => 'fas fa-shield-alt', 'text' => 'Responsabilidad<br>empresarial', 'tooltip' => 'Actuamos de forma ética, cuidando el impacto social y económico de nuestras operaciones en la región.'],
-    ['icon' => 'fas fa-hands-helping', 'text' => 'Orientación<br>al cliente', 'tooltip' => 'El cliente es el centro de nuestras decisiones. Nos adaptamos para superar sus expectativas diarias.'],
-    ['icon' => 'fas fa-users-cog', 'text' => 'Trabajo en<br>equipo', 'tooltip' => 'Valoramos el aporte de cada colaborador, creando sinergias para lograr metas en común.'],
-    ['icon' => 'fas fa-globe-americas', 'text' => 'Desarrollo<br>sostenible', 'tooltip' => 'Promovemos prácticas sostenibles que aseguran el cuidado del medio ambiente para futuras generaciones.'],
+    ['icon' => 'far fa-lightbulb', 'text' => 'Innovación<br>estratégica', 'tooltip' => 'No solo ejecutamos, evolucionamos. Analizamos el mercado, identificamos oportunidades y desarrollamos soluciones que respondan a nuevas necesidades empresariales.'],
+    ['icon' => 'fas fa-shield-alt', 'text' => 'Responsabilidad<br>empresarial', 'tooltip' => 'Actuamos con ética, transparencia y responsabilidad en cada decisión. Creemos que el crecimiento sostenible se construye con confianza y coherencia.'],
+    ['icon' => 'fas fa-hands-helping', 'text' => 'Orientación<br>al cliente', 'tooltip' => 'Nuestros clientes son el eje de nuestras operaciones. Escuchamos, entendemos y diseñamos soluciones que generen valor real y resultados medibles.'],
+    ['icon' => 'fas fa-users-cog', 'text' => 'Trabajo en<br>equipo', 'tooltip' => 'El crecimiento del grupo se sostiene en la colaboración. Fomentamos una cultura de respeto, coordinación y sinergia entre nuestras áreas y unidades de negocio.'],
+    ['icon' => 'fas fa-globe-americas', 'text' => 'Desarrollo<br>sostenible', 'tooltip' => 'Creemos en un progreso que impacte positivamente en la comunidad. Buscamos generar empleo, dinamizar la economía local y contribuir al desarrollo regional.'],
 ];
 
 $mapCities = ['Sullana', 'Chiclayo', 'Tarapoto', 'Pucallpa', 'Lima'];

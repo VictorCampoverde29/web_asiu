@@ -213,9 +213,8 @@
     background: linear-gradient(180deg, #ffffff 0%, #f6f8fc 100%);
     color: #333333;
     transform: rotateY(180deg);
-    text-align: left;
-    justify-content: space-between;
-    gap: 18px;
+    text-align: center;
+    justify-content: center;
     border-color: rgba(43, 107, 243, 0.12);
 }
 
@@ -230,39 +229,20 @@
     color: #1243D3;
     border-bottom: 2px solid rgba(43, 107, 243, 0.35);
     padding-bottom: 10px;
-    margin-bottom: 12px;
-    width: 100%;
+    margin: 0 auto 12px auto;
+    max-width: 92%;
     letter-spacing: 0.02em;
     line-height: 1.25;
+    text-align: center;
 }
 
 .service-desc-back {
     font-size: 0.98rem;
     line-height: 1.58;
     color: #4a4f57;
-    margin-bottom: 0;
-}
-
-.service-btn-back {
-    background: linear-gradient(135deg, #2B6BF3 0%, #1243D3 100%);
-    color: #ffffff !important;
-    font-size: 0.82rem;
-    font-weight: 700;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-    padding: 11px 22px;
-    border-radius: 10px;
-    text-decoration: none !important;
-    display: inline-block;
-    align-self: flex-start;
-    box-shadow: 0 4px 14px rgba(18, 67, 211, 0.28);
-    transition: transform 0.25s ease, box-shadow 0.25s ease;
-}
-
-.service-btn-back:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 6px 18px rgba(18, 67, 211, 0.38);
-    color: #ffffff !important;
+    margin: 0 auto;
+    max-width: 92%;
+    text-align: center;
 }
 
 @media (max-width: 991.98px) {
