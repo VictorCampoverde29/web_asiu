@@ -11,6 +11,11 @@ $heroSlides = [
         'alt'    => 'Logo Icamar',
         'filter' => 'drop-shadow(0px 8px 10px rgba(0,0,0,0.15))',
         'label'  => 'Icamar',
+        'photos' => [
+            ['img' => 'empresas/icamar1.webp', 'label' => 'Repuestos Originales'],
+            ['img' => 'empresas/icamar2.webp', 'label' => 'Precios Especiales'],
+            ['img' => 'empresas/icamar3.webp', 'label' => 'Stock Disponible'],
+        ],
         'active' => true,
     ],
     [
@@ -18,24 +23,44 @@ $heroSlides = [
         'alt'    => 'Logo Zoe',
         'filter' => 'brightness(0) invert(1) drop-shadow(0px 8px 10px rgba(0,0,0,0.3))',
         'label'  => 'Zoe',
+        'photos' => [
+            ['img' => 'empresas/zoe1.webp', 'label' => 'Atención'],
+            ['img' => 'empresas/zoe2.webp', 'label' => 'Instalaciones'],
+            ['img' => 'empresas/zoe3.webp', 'label' => 'Operaciones'],
+        ],
     ],
     [
         'img'    => 'logo_fox.png',
         'alt'    => 'Logo Fox',
         'filter' => 'brightness(0) invert(1) drop-shadow(0px 8px 10px rgba(0,0,0,0.3))',
         'label'  => 'Fox',
+        'photos' => [
+            ['img' => 'empresas/fox1.webp', 'label' => 'Carga'],
+            ['img' => 'empresas/fox2.webp', 'label' => 'Rutas'],
+            ['img' => 'empresas/fox3.webp', 'label' => 'Flota'],
+        ],
     ],
     [
         'img'    => 'logo_asiuselva.png',
         'alt'    => 'Logo Asiu Selva',
         'filter' => 'brightness(0) invert(1) drop-shadow(0px 8px 10px rgba(0,0,0,0.3))',
         'label'  => 'Selva',
+        'photos' => [
+            ['img' => 'empresas/asiuselva1.webp', 'label' => 'Proyectos'],
+            ['img' => 'empresas/asiuselva2.webp', 'label' => 'Equipo'],
+            ['img' => 'empresas/asiuselva3.webp', 'label' => 'Servicios'],
+        ],
     ],
     [
         'img'    => 'logo_chin.png',
         'alt'    => 'Logo GH Sachin',
         'filter' => 'brightness(0) invert(1) drop-shadow(0px 8px 10px rgba(0,0,0,0.3))',
         'label'  => 'Sachin',
+        'photos' => [
+            ['img' => 'empresas/sachin1.webp', 'label' => 'Rapidez'],
+            ['img' => 'empresas/sachin2.webp', 'label' => 'Buen Acabado'],
+            ['img' => 'empresas/sachin3.webp', 'label' => 'Eficiencia'],
+        ],
     ],
 ];
 
@@ -84,11 +109,14 @@ $pilaresCards = [
                                 <img src="<?= base_url('public/dist/img/' . $slide['img']) ?>" alt="<?= esc($slide['alt']) ?>" class="img-fluid carousel-logo" style="filter: <?= esc($slide['filter']) ?>;">
                             </div>
                             <div class="row px-3">
-                                <?php for ($i = 0; $i < 3; $i++): ?>
+                                <?php foreach ($slide['photos'] as $photo): ?>
                                 <div class="col-4 px-2">
-                                    <div class="photo-box"><span>fotos<br><?= esc($slide['label']) ?></span></div>
+                                    <div class="photo-box">
+                                <img src="<?= base_url('public/dist/img/' . $photo['img']) ?>" alt="<?= esc($photo['label']) ?>" class="photo-box-img">
+                                <span><?= esc($photo['label']) ?></span>
+                            </div>
                                 </div>
-                                <?php endfor; ?>
+                                <?php endforeach; ?>
                             </div>
                         </div>
                         <?php endforeach; ?>

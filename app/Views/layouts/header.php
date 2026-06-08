@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?= isset($title) ? $title . ' | G.A ASIU' : 'G.A ASIU - Grupo Empresarial' ?></title>
-    
+    <link rel="shortcut icon" type="image/png" href="<?= base_url('public/dist/img/favicon.ico') ?>">
+
+    <title><?php if (isset($title)): ?><?= $title ?><?php endif; ?></title>    
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,700;0,900;1,700&display=swap" rel="stylesheet">
@@ -82,19 +83,19 @@
 <body>
 
 <div class="social-sidebar d-none d-md-flex">
-    <a href="#" target="_blank" class="social-sidebar-btn fb">
+    <a href="https://www.facebook.com/profile.php?id=61590757046336" target="_blank" class="social-sidebar-btn fb">
         <i class="fab fa-facebook-f"></i>
     </a>
 
-    <a href="#" target="_blank" class="social-sidebar-btn ig">
+    <a href="https://www.instagram.com/grupoasiu/" target="_blank" class="social-sidebar-btn ig">
         <i class="fab fa-instagram"></i>
     </a>
 
-    <a href="#" target="_blank" class="social-sidebar-btn in">
+    <a href="https://www.linkedin.com/company/grupo-asiu/" target="_blank" class="social-sidebar-btn in">
         <i class="fab fa-linkedin-in"></i>
     </a>
 
-    <a href="#" target="_blank" class="social-sidebar-btn wa">
+    <a href="https://wa.me/51975678920" target="_blank" class="social-sidebar-btn wa">
         <i class="fab fa-whatsapp"></i>
     </a>
 </div>

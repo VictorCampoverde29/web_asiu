@@ -130,7 +130,7 @@
 .photo-box {
     background-color: #ffffff;
     border-radius: 18px;
-    padding: 30px 15px;
+    padding: 15px;
     text-align: center;
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
     transition: transform 0.3s ease;
@@ -140,11 +140,21 @@
     transform: translateY(-5px);
 }
 
+.photo-box .photo-box-img {
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 12px;
+    display: block;
+    margin-bottom: 8px;
+}
+
 .photo-box span {
     font-style: italic;
     font-weight: 700;
     color: #000000;
-    font-size: 1.1rem;
+    font-size: 0.95rem;
+    display: block;
 }
 
 /* EMPRESAS SECTION */

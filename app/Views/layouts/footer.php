@@ -138,25 +138,25 @@
                 <h4 class="footer-section-title fw-300">Acerca de proyectos</h4>
                 <p class="footer-link-info italic fw-700">
                     ¿Tienes una propuesta de proyecto?<br>
-                    <a href="mailto:vhbullon@edu.pe" class="fw-400 text-lowercase">vhbullon@edu.pe</a>
+                    <a href="mailto:dalban@grupoasiu.pe" class="fw-400 text-lowercase">dalban@grupoasiu.pe</a>
                 </p>
                 <h4 class="footer-section-title fw-300 mt-4">Dirección</h4>
                 <p class="footer-link-info fw-700">
-                    Av. Luis Gonzáles 952 Of. 201<br>
-                    <span class="fw-400">Chiclayo - Lambayeque</span>
+                    Carlos Castañeda N°255 P.J. Francisco Cabrera<br>
+                    <span class="fw-400">José Leonardo Ortiz - Chiclayo - Lambayeque</span>
                 </p>
             </div>
 
             <div class="col-lg-5 col-md-6 text-lg-right">
                 <h4 class="footer-section-title fw-300">Teléfonos</h4>
-                <p class="footer-link-info fw-900 mb-1" style="font-size: 1.15rem;">+51 997 975 295</p>
-                <p class="footer-link-info fw-900" style="font-size: 1.15rem;">+51 979 741 860</p>
+                <p class="footer-link-info fw-900 mb-1" style="font-size: 1.15rem;">+51 975 678 920</p>
+                <p class="footer-link-info fw-900" style="font-size: 1.15rem;">+51 978 179 210</p>
                 
                 <div class="mt-4 d-inline-block text-lg-right">
                     <h4 class="footer-section-title fw-300 mb-2">Redes Sociales</h4>
                     <div class="footer-social-icons justify-content-lg-end">
-                        <a href="#" target="_blank" class="footer-social-icon-btn"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#" target="_blank" class="footer-social-icon-btn"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/profile.php?id=61590757046336" target="_blank" class="footer-social-icon-btn"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/grupoasiu/" target="_blank" class="footer-social-icon-btn"><i class="fab fa-instagram"></i></a>
                     </div>
                 </div>
             </div>

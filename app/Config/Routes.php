@@ -10,3 +10,4 @@ $routes->get('inicio', 'InicioController::index');
 $routes->get('quienes-somos', 'QuienesSomosController::index');
 $routes->get('servicios', 'ServiciosController::index');
 $routes->get('contacto', 'ContactoController::index');
+$routes->post('contacto/enviar', 'ContactoController::envieCorreo');
