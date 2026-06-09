@@ -1,37 +1,41 @@
-<?php 
-    $uri = service('request')->getUri();
-    $segment = ($uri->getTotalSegments() > 0) ? $uri->getSegment(1) : ''; 
+<?php
+$uri = service('request')->getUri();
+$segment = ($uri->getTotalSegments() > 0) ? $uri->getSegment(1) : '';
 ?>
 
 <header class="w-100 header-asiu-floating">
     <nav class="navbar navbar-expand-lg bg-white shadow custom-navbar mx-auto px-4 py-2">
         <div class="container-fluid">
-            
+
             <a class="navbar-brand" href="<?= site_url('/') ?>">
                 <img src="<?= base_url('public/dist/img/ASIU.png') ?>" alt="G.A ASIU" height="50">
             </a>
-            
+
             <button class="navbar-toggler border-0 shadow-none" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon d-flex align-items-center justify-content-center">
                     <i class="fas fa-bars" style="color: #0052ff; font-size: 24px;"></i>
                 </span>
             </button>
-            
+
             <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                 <div class="navbar-nav align-items-center text-center py-3 py-lg-0">
-                    
-                    <a class="nav-link-asiu <?= ($segment == '' || $segment == 'inicio') ? 'active-asiu' : '' ?>" 
-                       href="<?= site_url('inicio') ?>">Inicio</a>
-                    
-                    <a class="nav-link-asiu <?= ($segment == 'quienes-somos') ? 'active-asiu' : '' ?>" 
-                       href="<?= site_url('quienes-somos') ?>">¿Quiénes Somos?</a>
-                    
-                    <a class="nav-link-asiu <?= ($segment == 'servicios') ? 'active-asiu' : '' ?>" 
-                       href="<?= site_url('servicios') ?>">Servicios</a>
-                    
-                    <a class="btn-contact-asiu <?= ($segment == 'contacto') ? 'btn-contact-active' : '' ?> ml-lg-3 mt-2 mt-lg-0" 
-                       href="<?= site_url('contacto') ?>">Contáctanos</a>
-                       
+
+                    <a class="nav-link-asiu <?= ($segment == '' || $segment == 'inicio') ? 'active-asiu' : '' ?>"
+                        href="<?= site_url('inicio') ?>">Inicio</a>
+
+                    <a class="nav-link-asiu <?= ($segment == 'quienes-somos') ? 'active-asiu' : '' ?>"
+                        href="<?= site_url('quienes-somos') ?>">¿Quiénes Somos?</a>
+
+                    <a class="nav-link-asiu <?= ($segment == 'servicios') ? 'active-asiu' : '' ?>"
+                        href="<?= site_url('servicios') ?>">Servicios</a>
+
+                    <a class="nav-link-asiu"
+                        href="https://webmail.grupoasiu.com">Correo Corporativo</a>
+
+
+                    <a class="btn-contact-asiu <?= ($segment == 'contacto') ? 'btn-contact-active' : '' ?> ml-lg-3 mt-2 mt-lg-0"
+                        href="<?= site_url('contacto') ?>">Contáctanos</a>
+
                 </div>
             </div>
         </div>
@@ -39,7 +43,6 @@
 </header>
 
 <style>
-    
     .header-asiu-floating {
         position: absolute;
         top: 25px;
@@ -49,11 +52,11 @@
         background-color: unset;
     }
 
-    
+
     .custom-navbar {
         max-width: 1340px;
         border: none !important;
-        border-radius: 12px; 
+        border-radius: 12px;
         box-shadow: 0 10px 30px rgba(0, 0, 0, 0.06) !important;
     }
 
@@ -108,7 +111,7 @@
         transition: all 0.3s ease;
     }
 
-    .btn-contact-asiu:hover, 
+    .btn-contact-asiu:hover,
     .btn-contact-active {
         background: linear-gradient(135deg, #0044ff 0%, #0077ff 100%) !important;
         transform: translateY(-2px);
@@ -117,10 +120,11 @@
 
     @media (max-width: 991.98px) {
         .header-asiu-floating {
-            top: 15px; 
+            top: 15px;
             padding-left: 10px;
             padding-right: 10px;
         }
+
         .nav-link-asiu {
             width: 100%;
             margin-bottom: 4px;

@@ -11,3 +11,7 @@ $routes->get('quienes-somos', 'QuienesSomosController::index');
 $routes->get('servicios', 'ServiciosController::index');
 $routes->get('contacto', 'ContactoController::index');
 $routes->post('contacto/enviar', 'ContactoController::envieCorreo');
+
+// Sitemap
+$routes->get('sitemap.xml', 'SitemapController::index');
+$routes->get('sitemap', 'SitemapController::index');
